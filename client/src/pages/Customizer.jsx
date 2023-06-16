@@ -55,8 +55,6 @@ const Customizer = () => {
 
       const response = await fetch('https://ai-powered-3d-product-based-website.onrender.com/api/v1/dalle', {
         method: 'POST',
-        mode: 'cors',
-        credentials: 'include',
         headers: {
           'Content-Type': 'application/json'
         },
