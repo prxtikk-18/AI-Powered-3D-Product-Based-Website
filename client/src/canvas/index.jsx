@@ -15,6 +15,7 @@ const CanvasModel = () => {
     >
       <ambientLight intensity={0.5} />
       <Environment path="/hdri/" files="potsdamer_platz_1k.hdr" />
+      <Environment preset="city" />
 
       <CameraRig>
         <Backdrop />
